@@ -1,6 +1,6 @@
 {
   "name": "@laser-ui/rmap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AMap for React.",
   "keywords": [
     "react",
@@ -60,7 +60,6 @@
     "vitest": "~0.32.0"
   },
   "peerDependencies": {
-    "@laser-ui/hooks": "^0.1.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "tslib": "^2.0.0"

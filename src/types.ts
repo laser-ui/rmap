@@ -20,6 +20,6 @@ export interface RMapLoaderProps {
 }
 
 export interface RMapProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'children'> {
-  options?: AMap.MapOptions;
+  init?: () => AMap.MapOptions | undefined;
   plugins?: string | string[];
 }
